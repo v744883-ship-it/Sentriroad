@@ -1,0 +1,93 @@
+[
+  {
+    "id": "s_1001",
+    "detection_id": "d_1001",
+    "urgency_score": 88,
+    "factor_breakdown": {
+      "severity": 85,
+      "traffic_volume": 92,
+      "accident_risk": 90,
+      "road_category": 80,
+      "time_since_detection": 60
+    },
+    "computed_at": "2026-08-10T07:33:00Z"
+  },
+  {
+    "id": "s_1002",
+    "detection_id": "d_1002",
+    "urgency_score": 61,
+    "factor_breakdown": {
+      "severity": 55,
+      "traffic_volume": 70,
+      "accident_risk": 50,
+      "road_category": 65,
+      "time_since_detection": 45
+    },
+    "computed_at": "2026-08-20T14:08:00Z"
+  },
+  {
+    "id": "s_1003",
+    "detection_id": "d_1003",
+    "urgency_score": 74,
+    "factor_breakdown": {
+      "severity": 70,
+      "traffic_volume": 80,
+      "accident_risk": 75,
+      "road_category": 70,
+      "time_since_detection": 55
+    },
+    "computed_at": "2026-08-24T11:23:00Z"
+  },
+  {
+    "id": "s_1004",
+    "detection_id": "d_1004",
+    "urgency_score": 42,
+    "factor_breakdown": {
+      "severity": 40,
+      "traffic_volume": 45,
+      "accident_risk": 35,
+      "road_category": 50,
+      "time_since_detection": 20
+    },
+    "computed_at": "2026-08-27T06:48:00Z"
+  },
+  {
+    "id": "s_1005",
+    "detection_id": "d_1005",
+    "urgency_score": 88,
+    "factor_breakdown": {
+      "severity": 92,
+      "traffic_volume": 90,
+      "accident_risk": 94,
+      "road_category": 86,
+      "time_since_detection": 78
+    },
+    "computed_at": "2026-09-02T05:31:30Z"
+  },
+  {
+    "id": "s_1006",
+    "detection_id": "d_1006",
+    "urgency_score": 74,
+    "factor_breakdown": {
+      "severity": 76,
+      "traffic_volume": 72,
+      "accident_risk": 78,
+      "road_category": 70,
+      "time_since_detection": 64
+    },
+    "computed_at": "2026-09-02T05:31:30Z"
+  },
+  {
+    "id": "s_1007",
+    "detection_id": "d_1007",
+    "urgency_score": 58,
+    "factor_breakdown": {
+      "severity": 60,
+      "traffic_volume": 55,
+      "accident_risk": 62,
+      "road_category": 58,
+      "time_since_detection": 48
+    },
+    "computed_at": "2026-09-02T05:31:30Z"
+  }
+]

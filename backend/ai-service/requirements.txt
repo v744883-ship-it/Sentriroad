@@ -1,0 +1,11 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.6
+pydantic>=2.9.2
+requests>=2.32.0
+python-dotenv>=1.0.1
+
+# NOT needed with the Roboflow hosted-API approach in main.py (avoids
+# the torch/ultralytics build issues hit on Windows). Only uncomment
+# these if you switch to running a model fully locally instead:
+# ultralytics==8.2.103
+# opencv-python-headless==4.10.0.84

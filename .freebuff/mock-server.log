@@ -1,0 +1,13 @@
+
+> sentriroad-mock-server@1.0.0 start
+> node server.js
+
+
+  Sentriroad mock API running → http://localhost:4000/api/v1
+
+  Sign in with any seeded account + password "123":
+    citizen   → ravi@example.com        authority   → suresh.authority@bbmp.gov.in
+    crew      → ramesh.crew@bbmp.gov.in drone op   → kavya.drone@bbmp.gov.in
+    admin     → admin@sentriroad.app
+  Role mismatch on sign-in is rejected (403 ROLE_MISMATCH).
+

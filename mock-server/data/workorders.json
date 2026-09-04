@@ -1,0 +1,198 @@
+[
+  {
+    "id": "w_1001",
+    "report_id": "r_1001",
+    "score_id": "s_1001",
+    "location": {
+      "address": "Outer Ring Road, near Marathahalli Bridge, Bengaluru",
+      "gps": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      }
+    },
+    "evidence_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Marathahalli_bridge_2018_05_26.jpg/960px-Marathahalli_bridge_2018_05_26.jpg",
+    "damage_type": "pothole",
+    "urgency_score": 88,
+    "cost_estimate": 18500,
+    "sla_deadline": "2026-08-12T07:30:00Z",
+    "status": "verified",
+    "assigned_crew_id": "u_crew_1",
+    "crew_submitted_at": "2026-08-11T16:00:00Z",
+    "crew_photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Marathahalli_Bridge.JPG/960px-Marathahalli_Bridge.JPG",
+    "review_status": "approved",
+    "reviewed_by": "u_authority_1",
+    "reviewed_at": "2026-08-11T18:30:00Z",
+    "rejection_reason": null,
+    "pdf_url": "https://storage.example.com/workorders/w_1001.pdf",
+    "created_at": "2026-08-10T07:34:00Z",
+    "updated_at": "2026-08-11T18:30:00Z"
+  },
+  {
+    "id": "w_1002",
+    "report_id": "r_1002",
+    "score_id": "s_1002",
+    "location": {
+      "address": "Koramangala 80ft Road, near Sony Signal, Bengaluru",
+      "gps": {
+        "lat": 12.9352,
+        "lng": 77.6146
+      }
+    },
+    "evidence_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sony_signal_Koramangala.jpg/960px-Sony_signal_Koramangala.jpg",
+    "damage_type": "crack",
+    "urgency_score": 61,
+    "cost_estimate": 9200,
+    "sla_deadline": "2026-08-23T14:05:00Z",
+    "status": "reviewing",
+    "assigned_crew_id": "u_crew_2",
+    "crew_submitted_at": "2026-08-26T12:00:00Z",
+    "crew_photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Nandini_Hotel_on_Inner_Ring_Road_-_Koramangala.JPG/960px-Nandini_Hotel_on_Inner_Ring_Road_-_Koramangala.JPG",
+    "review_status": "pending",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "pdf_url": "https://storage.example.com/workorders/w_1002.pdf",
+    "created_at": "2026-08-20T14:09:00Z",
+    "updated_at": "2026-08-26T12:00:00Z"
+  },
+  {
+    "id": "w_1003",
+    "report_id": "r_1003",
+    "score_id": "s_1003",
+    "location": {
+      "address": "Indiranagar 100ft Road, near CMH Road junction, Bengaluru",
+      "gps": {
+        "lat": 12.9784,
+        "lng": 77.6408
+      }
+    },
+    "evidence_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Indiranagar_Shopping_Hundred_Feet_Road%2C_Indiranagar_Bangalore_by_night.JPG/960px-Indiranagar_Shopping_Hundred_Feet_Road%2C_Indiranagar_Bangalore_by_night.JPG",
+    "damage_type": "pothole",
+    "urgency_score": 74,
+    "cost_estimate": 15000,
+    "sla_deadline": "2026-08-26T11:20:00Z",
+    "status": "assigned_to_crew",
+    "assigned_crew_id": "u_crew_1",
+    "crew_submitted_at": null,
+    "crew_photo_url": null,
+    "review_status": null,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "pdf_url": "https://storage.example.com/workorders/w_1003.pdf",
+    "created_at": "2026-08-24T11:24:00Z",
+    "updated_at": "2026-08-25T09:00:00Z"
+  },
+  {
+    "id": "w_1004",
+    "report_id": "r_1004",
+    "score_id": "s_1004",
+    "location": {
+      "address": "HAL Airport Road, near Domlur flyover, Bengaluru",
+      "gps": {
+        "lat": 12.9611,
+        "lng": 77.6387
+      }
+    },
+    "evidence_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Domlur_flyover_view_1.JPG/960px-Domlur_flyover_view_1.JPG",
+    "damage_type": "pothole",
+    "urgency_score": 42,
+    "cost_estimate": 7000,
+    "sla_deadline": "2026-08-29T06:45:00Z",
+    "status": "scored",
+    "assigned_crew_id": null,
+    "crew_submitted_at": null,
+    "crew_photo_url": null,
+    "review_status": null,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "pdf_url": "https://storage.example.com/workorders/w_1004.pdf",
+    "created_at": "2026-08-27T06:49:00Z",
+    "updated_at": "2026-08-27T06:49:00Z"
+  },
+  {
+    "id": "w_1005",
+    "report_id": "r_1006",
+    "score_id": "s_1005",
+    "location": {
+      "address": "Outer Ring Road, near Marathahalli Bridge, Bengaluru \u2014 finding 1 of 3",
+      "gps": {
+        "lat": 12.9566,
+        "lng": 77.6971
+      }
+    },
+    "evidence_image_url": null,
+    "damage_type": "pothole",
+    "urgency_score": 88,
+    "cost_estimate": 15648,
+    "sla_deadline": "2026-09-05T05:31:00Z",
+    "status": "scored",
+    "assigned_crew_id": null,
+    "crew_submitted_at": null,
+    "crew_photo_url": null,
+    "review_status": null,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "pdf_url": "https://storage.example.com/workorders/w_1005.pdf",
+    "created_at": "2026-09-02T05:32:00Z",
+    "updated_at": "2026-09-02T05:32:00Z"
+  },
+  {
+    "id": "w_1006",
+    "report_id": "r_1006",
+    "score_id": "s_1006",
+    "location": {
+      "address": "Outer Ring Road, near Marathahalli Bridge, Bengaluru \u2014 finding 2 of 3",
+      "gps": {
+        "lat": 12.9572,
+        "lng": 77.698
+      }
+    },
+    "evidence_image_url": null,
+    "damage_type": "pothole",
+    "urgency_score": 74,
+    "cost_estimate": 14304,
+    "sla_deadline": "2026-09-05T05:31:00Z",
+    "status": "scored",
+    "assigned_crew_id": null,
+    "crew_submitted_at": null,
+    "crew_photo_url": null,
+    "review_status": null,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "pdf_url": "https://storage.example.com/workorders/w_1006.pdf",
+    "created_at": "2026-09-02T05:32:00Z",
+    "updated_at": "2026-09-02T05:32:00Z"
+  },
+  {
+    "id": "w_1007",
+    "report_id": "r_1006",
+    "score_id": "s_1007",
+    "location": {
+      "address": "Outer Ring Road, near Marathahalli Bridge, Bengaluru \u2014 finding 3 of 3",
+      "gps": {
+        "lat": 12.956,
+        "lng": 77.6962
+      }
+    },
+    "evidence_image_url": null,
+    "damage_type": "crack",
+    "urgency_score": 58,
+    "cost_estimate": 8512,
+    "sla_deadline": "2026-09-05T05:31:00Z",
+    "status": "scored",
+    "assigned_crew_id": null,
+    "crew_submitted_at": null,
+    "crew_photo_url": null,
+    "review_status": null,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "pdf_url": "https://storage.example.com/workorders/w_1007.pdf",
+    "created_at": "2026-09-02T05:32:00Z",
+    "updated_at": "2026-09-02T05:32:00Z"
+  }
+]

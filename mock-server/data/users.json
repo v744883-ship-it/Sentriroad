@@ -1,0 +1,9 @@
+[
+  { "id": "u_citizen_1", "name": "Ravi Kumar", "email": "ravi@example.com", "phone": "+919900011122", "role": "citizen", "created_at": "2026-08-01T09:00:00Z" },
+  { "id": "u_citizen_2", "name": "Anjali Rao", "email": "anjali@example.com", "phone": "+919900033344", "role": "citizen", "created_at": "2026-08-02T10:15:00Z" },
+  { "id": "u_authority_1", "name": "Suresh Patil (BBMP Zonal Engineer)", "email": "suresh.authority@bbmp.gov.in", "phone": "+919900055566", "role": "authority", "created_at": "2026-07-20T08:00:00Z" },
+  { "id": "u_crew_1", "name": "Ramesh (Crew Lead, Ward 12)", "email": "ramesh.crew@bbmp.gov.in", "phone": "+919900077788", "role": "crew", "created_at": "2026-07-20T08:05:00Z" },
+  { "id": "u_crew_2", "name": "Manjunath (Crew, Ward 14)", "email": "manju.crew@bbmp.gov.in", "phone": "+919900099900", "role": "crew", "created_at": "2026-07-20T08:06:00Z" },
+  { "id": "u_drone_1", "name": "Kavya Nair (Drone Pilot, Ward 12)", "email": "kavya.drone@bbmp.gov.in", "phone": "+919900011199", "role": "drone_operator", "created_at": "2026-07-21T09:30:00Z" },
+  { "id": "u_admin_1", "name": "System Admin", "email": "admin@sentriroad.app", "phone": null, "role": "admin", "created_at": "2026-07-01T00:00:00Z" }
+]

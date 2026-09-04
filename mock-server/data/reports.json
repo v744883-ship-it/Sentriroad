@@ -1,0 +1,88 @@
+[
+  {
+    "id": "r_1001",
+    "citizen_id": "u_citizen_1",
+    "media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Marathahalli_bridge_2018_05_26.jpg/960px-Marathahalli_bridge_2018_05_26.jpg",
+    "media_type": "photo",
+    "gps": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "address": "Outer Ring Road, near Marathahalli Bridge, Bengaluru",
+    "description": "Big pothole near the bus stop, two-wheelers keep swerving",
+    "status": "verified",
+    "created_at": "2026-08-10T07:30:00Z"
+  },
+  {
+    "id": "r_1002",
+    "citizen_id": "u_citizen_1",
+    "media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sony_signal_Koramangala.jpg/960px-Sony_signal_Koramangala.jpg",
+    "media_type": "photo",
+    "gps": {
+      "lat": 12.9352,
+      "lng": 77.6146
+    },
+    "address": "Koramangala 80ft Road, near Sony Signal, Bengaluru",
+    "description": "Deep crack forming across the lane after the rain",
+    "status": "reviewing",
+    "created_at": "2026-08-20T14:05:00Z"
+  },
+  {
+    "id": "r_1003",
+    "citizen_id": "u_citizen_2",
+    "media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Indiranagar_Shopping_Hundred_Feet_Road%2C_Indiranagar_Bangalore_by_night.JPG/960px-Indiranagar_Shopping_Hundred_Feet_Road%2C_Indiranagar_Bangalore_by_night.JPG",
+    "media_type": "photo",
+    "gps": {
+      "lat": 12.9784,
+      "lng": 77.6408
+    },
+    "address": "Indiranagar 100ft Road, near CMH Road junction, Bengaluru",
+    "description": "Pothole widening, almost hit it on my scooter",
+    "status": "assigned_to_crew",
+    "created_at": "2026-08-24T11:20:00Z"
+  },
+  {
+    "id": "r_1004",
+    "citizen_id": "u_citizen_2",
+    "media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Domlur_flyover_view_1.JPG/960px-Domlur_flyover_view_1.JPG",
+    "media_type": "photo",
+    "gps": {
+      "lat": 12.9611,
+      "lng": 77.6387
+    },
+    "address": "HAL Airport Road, near Domlur flyover, Bengaluru",
+    "description": null,
+    "status": "scored",
+    "created_at": "2026-08-27T06:45:00Z"
+  },
+  {
+    "id": "r_1005",
+    "citizen_id": "u_citizen_1",
+    "media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Whitefield_Main_road_2-2-2014_5-01-46_PM.JPG/960px-Whitefield_Main_road_2-2-2014_5-01-46_PM.JPG",
+    "media_type": "photo",
+    "gps": {
+      "lat": 12.9698,
+      "lng": 77.75
+    },
+    "address": "Whitefield Main Road, near ITPL gate, Bengaluru",
+    "description": "Small crack, not urgent but flagging it",
+    "status": "reported",
+    "created_at": "2026-08-29T18:10:00Z"
+  },
+  {
+    "id": "r_1006",
+    "citizen_id": "u_drone_1",
+    "media_url": "mock-storage://drone/demo/orr-sweep.mp4",
+    "media_type": "video",
+    "gps": {
+      "lat": null,
+      "lng": null
+    },
+    "address": "Outer Ring Road, near Marathahalli Bridge, Bengaluru",
+    "description": "Routine patrol flight \u2014 1.2 km sweep over the ORR stretch",
+    "status": "scored",
+    "source_type": "drone",
+    "telemetry_url": "mock-storage://drone/demo/orr-sweep.srt",
+    "created_at": "2026-09-02T05:30:00Z"
+  }
+]

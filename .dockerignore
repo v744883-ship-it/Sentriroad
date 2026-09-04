@@ -1,0 +1,19 @@
+# Local
+node_modules
+**/node_modules
+dist
+**/dist
+.freebuff
+*.log
+.env
+.git
+.gitignore
+
+# Not part of the container image
+backend
+ai-service
+docs
+types
+scripts
+sql
+mock-server/data/*.json.bak

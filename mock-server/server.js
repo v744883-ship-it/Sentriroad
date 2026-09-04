@@ -39,8 +39,15 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const PORT = 4000;
+const PORT = process.env.PORT ? Number(process.env.PORT) : 4000;
 const PREFIX = "/api/v1";
+
+// Single-process deployment (see Dockerfile): when STATIC_DIR points at the
+// built frontend folder, this same server also serves the UI with an SPA
+// fallback — one process = the whole app on one URL/port.
+const fs = require("fs");
+const path = require("path");
+const STATIC_DIR = process.env.STATIC_DIR ? path.resolve(process.env.STATIC_DIR) : null;
 
 // ---------------- helpers ----------------
 
@@ -785,8 +792,24 @@ app.get(`${PREFIX}/zones/priority`, requireAuth, requireRole("authority", "admin
 // ---------------- health check ----------------
 
 app.get("/", (req, res) => {
+  if (STATIC_DIR && fs.existsSync(path.join(STATIC_DIR, "index.html"))) {
+    return res.sendFile(path.join(STATIC_DIR, "index.html"));
+  }
   res.json({ status: "ok", message: "Sentriroad mock API running", prefix: PREFIX });
 });
+
+// Deploy mode: serve the built frontend + SPA fallback so /authority,
+// /crew, /operator etc. resolve client-side. /api and /uploads keep
+// hitting this same server.
+if (STATIC_DIR && fs.existsSync(STATIC_DIR)) {
+  app.use(express.static(STATIC_DIR));
+  app.use((req, res, next) => {
+    if (req.method !== "GET" && req.method !== "HEAD") return next();
+    if (req.path.startsWith("/api/") || req.path.startsWith("/uploads/")) return next();
+    res.sendFile(path.join(STATIC_DIR, "index.html"));
+  });
+  console.log(`  Serving built frontend from ${STATIC_DIR}`);
+}
 
 app.listen(PORT, () => {
   console.log(`\n  Sentriroad mock API running → http://localhost:${PORT}${PREFIX}\n`);

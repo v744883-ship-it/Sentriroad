@@ -359,11 +359,16 @@ app.post(`${PREFIX}/uploads/signed-url`, requireAuth, (req, res) => {
   if (!filename || !content_type) {
     return apiError(res, 400, "VALIDATION_ERROR", "filename and content_type are required");
   }
-  const path = `uploads/${req.user.id}/${Date.now()}-${sanitizeFilename(filename)}`;
-  const target = `http://localhost:${PORT}/${path}`;
+  const filePath = `uploads/${req.user.id}/${Date.now()}-${sanitizeFilename(filename)}`;
+  // Build the URL from the actual request so uploads work behind any
+  // proxy/host (Render, Vite dev, localhost). Never hardcode localhost:
+  // a deployed browser would try to upload to ITS OWN machine and fail.
+  const proto = String(req.headers["x-forwarded-proto"] || req.protocol).split(",")[0].trim();
+  const base = `${proto}://${req.get("host")}`;
+  const target = `${base}/${filePath}`;
   res.json({
     upload_url: target,
-    file_path: path,
+    file_path: filePath,
     public_url_after_upload: target,
     expires_at: new Date(Date.now() + 15 * 60 * 1000).toISOString(),
   });
